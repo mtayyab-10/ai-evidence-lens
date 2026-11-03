@@ -1,4 +1,4 @@
-<div align="center">
+![alt text](image.png)<div align="center">
 
 # EvidenceLens
 
