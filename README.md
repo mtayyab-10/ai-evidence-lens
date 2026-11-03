@@ -13,6 +13,10 @@
   <b>Transform any hypothesis, startup claim, or research thesis into a grounded, calibrated decision brief in seconds.</b>
 </p>
 
+![EvidenceLens Landing Page](screenshots/landing_page.png)
+
+<br/>
+
 [Overview](#-overview) • [Quickstart](#quickstart) • [Features](#key-features) • [Architecture](#architecture) • [Supported Models](#-supported-models) • [Project Structure](#-project-structure) • [Contributing](#-contributing) • [Author](#author)
 
 </div>
@@ -24,6 +28,12 @@
 EvidenceLens is an autonomous research validation assistant engineered to eliminate confirmation bias and information overload. Rather than generating generic text summaries, EvidenceLens critically decomposes claims into empirical supporting evidence, quantifiable counter-arguments, unverified assumptions, and practical validation milestones.
 
 Whether evaluating customer willingness-to-pay, stress-testing an academic paper, or analyzing an NGO pilot project, EvidenceLens separates verified evidence from uncertainty.
+
+<div align="center">
+
+![EvidenceLens Dashboard in Action](screenshots/working.png)
+
+</div>
 
 ---
 
@@ -148,7 +158,10 @@ evidencelens/
 ├── LICENSE                     # MIT License
 ├── README.md                   # Project documentation
 ├── example_output.md           # Sample output brief
-└── sample_output/              # Reference test outputs
+├── sample_output/              # Reference test outputs
+└── screenshots/                # UI previews and demo captures
+    ├── landing_page.png        # Welcome screen and hypothesis input
+    └── working.png             # Live brief generation and analysis dashboard
 ```
 
 ---
